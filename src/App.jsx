@@ -18,6 +18,7 @@ export default function App() {
   function resetBtn() {
     setCurrentDisplay("0")
     setPrevDisplay("")
+    setOperator("")
   }
 
   function deleteNumber() {
